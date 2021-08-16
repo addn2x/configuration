@@ -1,0 +1,14 @@
+
+nano /etc/apt/sources.list
+# non-free wifi driver
+
+#deb http://deb.debian.org/debian/ buster main non-free contrib
+#deb-src http://deb.debian.org/debian/ buster main non-free contrib
+
+#deb http://deb.debian.org/debian/ bullseye main non-free contrib
+#deb-src http://deb.debian.org/debian/ bullseye main non-free contrib
+
+apt install firmware-linux firmware-linux-nonfree 
+
+
+

@@ -1,0 +1,17 @@
+
+nano /etc/apt/sources.list
+# non-free wifi and AMD driver
+# debian 10 - buster
+# debian 11 -bullseye
+
+#deb http://deb.debian.org/debian/ buster main non-free contrib
+#deb-src http://deb.debian.org/debian/ buster main non-free contrib
+
+
+#deb http://deb.debian.org/debian/ bullseye main non-free contrib
+#deb-src http://deb.debian.org/debian/ bullseye main non-free contrib
+
+
+apt install firmware-linux firmware-linux-nonfree libdrm-amdgpu1 xserver-xorg-video-amdgpu
+
+
